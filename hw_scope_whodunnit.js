@@ -1,21 +1,21 @@
-// //Episode 1
-// // const scenario = {
-// //     murderer: 'Miss Scarlet',
-// //     room: 'Library',
-// //     weapon: 'Rope'
-// //   };
+//Episode 1
+const scenario = {
+    murderer: 'Miss Scarlet',
+    room: 'Library',
+    weapon: 'Rope'
+  };
   
-// //   const declareMurderer = function() {
-// //     return `The murderer is ${scenario.murderer}.`;
-// //   }
+  const declareMurderer = function() {
+    return `The murderer is ${scenario.murderer}.`;
+  }
   
-// //   const verdict = declareMurderer();
-// //   console.log(verdict);
+  const verdict = declareMurderer();
+  console.log(verdict);
 
-// // 'Miss Scarlet' -> 
+'Miss Scarlet' -> 
 
 
-// //Episode 2
+//Episode 2
 const murderer = 'Professor Plum';
 
 const changeMurderer = function() {
